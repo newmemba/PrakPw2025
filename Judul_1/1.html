@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portoku - Portofolio Saya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <h1>Portoku</h1>
+        </div>
+    </header>
+
+    
+    <section class="profile-section container">
+        <div class="photo-container">
+            <img src="gambar1.png" alt="Foto Profil" class="profile-photo">
+        </div>
+        <div class="profile-info">
+            <h2>Tentang Saya</h2>
+            <p>Saya Hanif Dhiah Ulhaq, mahasiswa Teknik Informatika Universitas Lampung yang berdedikasi tinggi dalam memperdalam pengetahuan dan keterampilan di bidang teknologi, khususnya coding. Selalu termotivasi untuk eksplorasi dan mempelajari hal-hal baru serta berkomitmen untuk terus belajar dan memberikan dampak positif dalam lingkungan sosial.</p>
+
+            <div class="skills">
+                <span class="skill-tag">HTML</span>
+                <span class="skill-tag">CSS</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">C++</span>
+                <span class="skill-tag">PHP</span>
+                <span class="skill-tag">Java</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience-section">
+        <div class="container">
+            <h2 class="section-title">Tentang Saya Part 2</h2>
+            <div class="experience-content">
+                <div class="card">
+                    <img src="gambar1.png" alt="Pengembangan Website" class="card-img">
+                    <div class="card-content">
+                        <h3>Mari Mengenal Saya Lebih Jauh </h3>
+                        <p> Saya adalah individu yang disiplin, bertanggung jawab, 
+                            dan memiliki semangat belajar tinggi. Saya terbiasa bekerja dengan
+                             fokus dan mampu beradaptasi dengan cepat terhadap lingkungan serta tantangan baru. </p>
+                        <a href="#" target="_blank" class="btn">Detail</a>
+                    </div>
+                </div>
+                
+                <div class="experience-list">
+                    <h3>Karakteristik</h3>
+                    <ul>
+                        <li>
+                            <strong>Berani</strong>
+                            <p>Saya Merasa Diri Saya Berani Dalam Mengambil Keptusan</p>
+                        </li>
+                        <li>
+                            <strong>Tampan</strong>
+                            
+                            <p>Temanku berkata diri saya tampan walaupun berkata dengan muka kasihan </p>
+                        </li>
+                        <li>
+                            <strong>Ambivert</strong>
+                            <p>Saya adalah orang yang intovert namun jika sudah mengenal saya masuk ke mode ekstrovert</p>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Berikan Tanggapan</h2>
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Nama Lengkap</label>
+                    <input type="text" id="name" class="form-control" placeholder="Masukkan nama lengkap Anda" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="form-control" placeholder="Masukkan alamat email Anda" required>
+                </div>
+                
+              
+                
+                <div class="form-group">
+                    <label>Jenis Pesan</label>
+                    <div class="radio-group">
+                        <div class="radio-option">
+                            <input type="radio" id="feedback" name="messageType" value="feedback" checked>
+                            <label for="feedback">Feedback</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="question" name="messageType" value="question">
+                            <label for="question">Pertanyaan</label>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Pesan</label>
+                    <textarea id="message" class="form-control" placeholder="Tulis pesan Anda di sini..." required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Portoku. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
